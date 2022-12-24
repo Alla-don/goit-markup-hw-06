@@ -892,11 +892,11 @@ label.modal-policy-label {
 .modal-policy-check2 svg {
   fill: transparent;
 }
-.modal-policy-check:checked + label > div {
+.modal-policy-check:checked + label > .modal-policy-check2 {
   border: none;
   background-color: var(--accent-color);
 }
-.modal-policy-check:checked + label > div svg {
+.modal-policy-check:checked + label > .modal-policy-check2 svg {
   fill: var(--primary-white-color);
 }
 .modal-button {
